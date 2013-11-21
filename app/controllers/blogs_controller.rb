@@ -4,6 +4,7 @@ class BlogsController < ApplicationController
   # GET /blogs
   # GET /blogs.json
   def index
+    #Pulling all blogs from DB
     @blogs = Blog.all
   end
 
