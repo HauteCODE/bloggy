@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bloggy</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class="header">
+	<img src="/assets/" style="width:300px"/>
+
+	 <%= link_to "Blogs",blogs_path %>
+	 <%= link_to "About_Us", main_about_us_path %>
+	 <%= link_to "Privacy", main_privacy_path %>
+	 <%= link_to "TOS", main_tos_path %>
+
+</div>
+<div class="content"
+<%= yield %>
+
+
+
+<div class="footer">
+
+	 2013 . , Inc. All Rights Reserved.
+
+</div>
+</body>
+</html>
