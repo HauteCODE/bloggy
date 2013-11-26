@@ -1,6 +1,6 @@
 class MainController < ApplicationController
   def about_us
-  	@founders = ["Richard Sims", "Betsy Houzer"]
+  	@founders = ["Ty Carter"]
 
   	my_sum = add_number(5,9)
   end

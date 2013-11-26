@@ -1,6 +1,23 @@
-<h1>Edited blog</h1>
+<h1>Edit Blog</h1>
+
+<div style=:"float:left">
 
 <%= render 'form' %>
+</div>
+<div style="float:middle">
+	<h1>New Tag</h1>
+<%= render 'tags/form' %>
+<hr/>
+<h1>All Tags 
+	<h6><p><%=@blog.tags.count %>
+<% @blog.tags.each do |tag| %>
+<span style="background- color:gray;padding:4px;margin-right:4px;color:black">
+<%= tag.name %>
+<%end %>
+
+</div>
+
+<div style=:"clear:both"></div>
 
 <%= link_to 'Show', @blog %> |
 <%= link_to 'Back', blogs_path %>

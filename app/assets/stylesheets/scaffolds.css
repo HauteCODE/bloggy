@@ -1,9 +1,23 @@
 body {
-  background-color: #fff;
+  background-color: #d3ffce;
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
-  line-height: 18px;
+  line-height: 18px;  
+
+
+
+        background-color: #d3ffce; 
+
+      background-attachment: fixed;
+
+      background-image: url(skate1.jpeg);
+
+      background-repeat: no-repeat;
+
+      background-position: right top;
+
+      
 }
 
 p, ol, ul, td {
